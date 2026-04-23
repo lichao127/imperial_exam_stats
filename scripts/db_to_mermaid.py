@@ -233,17 +233,12 @@ def render_markdown(
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Query ming_people.db and generate Mermaid markdown report."
+        description="Query ming_people.db and generate split markdown graph files."
     )
     parser.add_argument(
         "--db",
         default="scripts/ming_people.db",
         help="Path to SQLite database (default: scripts/ming_people.db)",
-    )
-    parser.add_argument(
-        "--output",
-        default="ming.md",
-        help="Output markdown path (default: ming.md)",
     )
     parser.add_argument(
         "--split-dir",
@@ -259,11 +254,6 @@ def main() -> None:
     province_counts = query_count_by_province(db_path)
     yearly_counts_by_province = query_yearly_count_by_province(db_path)
     totals_by_year = query_total_count_by_year(db_path)
-    markdown = render_markdown(province_counts, yearly_counts_by_province, totals_by_year)
-
-    output_path = Path(args.output)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(markdown, encoding="utf-8")
 
     split_dir = Path(args.split_dir)
     graph_files = write_split_graph_files(
@@ -273,7 +263,6 @@ def main() -> None:
         totals_by_year,
     )
 
-    print(f"Wrote Mermaid report to {output_path}")
     print(f"Wrote {graph_files} graph markdown files to {split_dir}")
 
 
