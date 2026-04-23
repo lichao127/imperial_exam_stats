@@ -2,35 +2,29 @@
 
 ## Graph 1: Total Count by Province
 
-# Graph 1: Total Count by Province
-
-```mermaid
-pie showData
-    title 明代进士省份分布
-    "直隶" : 3309
-    "浙江" : 3272
-    "江西" : 2417
-    "未知" : 2309
-    "福建" : 2186
-    "河南" : 1577
-    "山东" : 1465
-    "湖广" : 1350
-    "四川" : 1323
-    "山西" : 1124
-    "陕西" : 957
-    "广东" : 755
-    "南直隶" : 498
-    "云南" : 242
-    "广西" : 167
-    "北直隶" : 108
-    "贵州" : 90
-```
+| Province | Count | Percentage |
+|---|---:|---:|
+| 直隶 | 3309 | 14.29% |
+| 浙江 | 3272 | 14.13% |
+| 江西 | 2417 | 10.44% |
+| 未知 | 2309 | 9.97% |
+| 福建 | 2186 | 9.44% |
+| 河南 | 1577 | 6.81% |
+| 山东 | 1465 | 6.33% |
+| 湖广 | 1350 | 5.83% |
+| 四川 | 1323 | 5.72% |
+| 山西 | 1124 | 4.86% |
+| 陕西 | 957 | 4.13% |
+| 广东 | 755 | 3.26% |
+| 南直隶 | 498 | 2.15% |
+| 云南 | 242 | 1.05% |
+| 广西 | 167 | 0.72% |
+| 北直隶 | 108 | 0.47% |
+| 贵州 | 90 | 0.39% |
 
 ## Graph 2: Yearly Count per Province
 
 ### 云南
-
-# Graph: 云南 Yearly Count
 
 ```mermaid
 xychart-beta
@@ -42,8 +36,6 @@ xychart-beta
 
 ### 北直隶
 
-# Graph: 北直隶 Yearly Count
-
 ```mermaid
 xychart-beta
     title "北直隶: 人数按年份"
@@ -53,8 +45,6 @@ xychart-beta
 ```
 
 ### 南直隶
-
-# Graph: 南直隶 Yearly Count
 
 ```mermaid
 xychart-beta
@@ -66,8 +56,6 @@ xychart-beta
 
 ### 四川
 
-# Graph: 四川 Yearly Count
-
 ```mermaid
 xychart-beta
     title "四川: 人数按年份"
@@ -77,8 +65,6 @@ xychart-beta
 ```
 
 ### 山东
-
-# Graph: 山东 Yearly Count
 
 ```mermaid
 xychart-beta
@@ -90,8 +76,6 @@ xychart-beta
 
 ### 山西
 
-# Graph: 山西 Yearly Count
-
 ```mermaid
 xychart-beta
     title "山西: 人数按年份"
@@ -101,8 +85,6 @@ xychart-beta
 ```
 
 ### 广东
-
-# Graph: 广东 Yearly Count
 
 ```mermaid
 xychart-beta
@@ -114,8 +96,6 @@ xychart-beta
 
 ### 广西
 
-# Graph: 广西 Yearly Count
-
 ```mermaid
 xychart-beta
     title "广西: 人数按年份"
@@ -125,8 +105,6 @@ xychart-beta
 ```
 
 ### 未知
-
-# Graph: 未知 Yearly Count
 
 ```mermaid
 xychart-beta
@@ -138,8 +116,6 @@ xychart-beta
 
 ### 江西
 
-# Graph: 江西 Yearly Count
-
 ```mermaid
 xychart-beta
     title "江西: 人数按年份"
@@ -149,8 +125,6 @@ xychart-beta
 ```
 
 ### 河南
-
-# Graph: 河南 Yearly Count
 
 ```mermaid
 xychart-beta
@@ -162,8 +136,6 @@ xychart-beta
 
 ### 浙江
 
-# Graph: 浙江 Yearly Count
-
 ```mermaid
 xychart-beta
     title "浙江: 人数按年份"
@@ -173,8 +145,6 @@ xychart-beta
 ```
 
 ### 湖广
-
-# Graph: 湖广 Yearly Count
 
 ```mermaid
 xychart-beta
@@ -186,8 +156,6 @@ xychart-beta
 
 ### 直隶
 
-# Graph: 直隶 Yearly Count
-
 ```mermaid
 xychart-beta
     title "直隶: 人数按年份"
@@ -197,8 +165,6 @@ xychart-beta
 ```
 
 ### 福建
-
-# Graph: 福建 Yearly Count
 
 ```mermaid
 xychart-beta
@@ -210,8 +176,6 @@ xychart-beta
 
 ### 贵州
 
-# Graph: 贵州 Yearly Count
-
 ```mermaid
 xychart-beta
     title "贵州: 人数按年份"
@@ -221,8 +185,6 @@ xychart-beta
 ```
 
 ### 陕西
-
-# Graph: 陕西 Yearly Count
 
 ```mermaid
 xychart-beta
