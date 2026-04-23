@@ -2,6 +2,8 @@
 
 ## Graph 1: Total Count by Province
 
+# Graph 1: Total Count by Province
+
 ```mermaid
 pie title 明代进士省份分布
     "直隶" : 3309
@@ -27,6 +29,8 @@ pie title 明代进士省份分布
 
 ### 云南
 
+# Graph: 云南 Yearly Count
+
 ```mermaid
 xychart-beta
     title "云南: 人数按年份"
@@ -36,6 +40,8 @@ xychart-beta
 ```
 
 ### 北直隶
+
+# Graph: 北直隶 Yearly Count
 
 ```mermaid
 xychart-beta
@@ -47,6 +53,8 @@ xychart-beta
 
 ### 南直隶
 
+# Graph: 南直隶 Yearly Count
+
 ```mermaid
 xychart-beta
     title "南直隶: 人数按年份"
@@ -56,6 +64,8 @@ xychart-beta
 ```
 
 ### 四川
+
+# Graph: 四川 Yearly Count
 
 ```mermaid
 xychart-beta
@@ -67,6 +77,8 @@ xychart-beta
 
 ### 山东
 
+# Graph: 山东 Yearly Count
+
 ```mermaid
 xychart-beta
     title "山东: 人数按年份"
@@ -76,6 +88,8 @@ xychart-beta
 ```
 
 ### 山西
+
+# Graph: 山西 Yearly Count
 
 ```mermaid
 xychart-beta
@@ -87,6 +101,8 @@ xychart-beta
 
 ### 广东
 
+# Graph: 广东 Yearly Count
+
 ```mermaid
 xychart-beta
     title "广东: 人数按年份"
@@ -96,6 +112,8 @@ xychart-beta
 ```
 
 ### 广西
+
+# Graph: 广西 Yearly Count
 
 ```mermaid
 xychart-beta
@@ -107,6 +125,8 @@ xychart-beta
 
 ### 未知
 
+# Graph: 未知 Yearly Count
+
 ```mermaid
 xychart-beta
     title "未知: 人数按年份"
@@ -116,6 +136,8 @@ xychart-beta
 ```
 
 ### 江西
+
+# Graph: 江西 Yearly Count
 
 ```mermaid
 xychart-beta
@@ -127,6 +149,8 @@ xychart-beta
 
 ### 河南
 
+# Graph: 河南 Yearly Count
+
 ```mermaid
 xychart-beta
     title "河南: 人数按年份"
@@ -136,6 +160,8 @@ xychart-beta
 ```
 
 ### 浙江
+
+# Graph: 浙江 Yearly Count
 
 ```mermaid
 xychart-beta
@@ -147,6 +173,8 @@ xychart-beta
 
 ### 湖广
 
+# Graph: 湖广 Yearly Count
+
 ```mermaid
 xychart-beta
     title "湖广: 人数按年份"
@@ -156,6 +184,8 @@ xychart-beta
 ```
 
 ### 直隶
+
+# Graph: 直隶 Yearly Count
 
 ```mermaid
 xychart-beta
@@ -167,6 +197,8 @@ xychart-beta
 
 ### 福建
 
+# Graph: 福建 Yearly Count
+
 ```mermaid
 xychart-beta
     title "福建: 人数按年份"
@@ -177,6 +209,8 @@ xychart-beta
 
 ### 贵州
 
+# Graph: 贵州 Yearly Count
+
 ```mermaid
 xychart-beta
     title "贵州: 人数按年份"
@@ -186,6 +220,8 @@ xychart-beta
 ```
 
 ### 陕西
+
+# Graph: 陕西 Yearly Count
 
 ```mermaid
 xychart-beta
