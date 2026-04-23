@@ -1,6 +1,6 @@
-# Graph 1: Total Count by Province
+# Graph 1: 明朝各省进士总人数
 
-| Province | Count | Percentage |
+| 省份 | 人数 | 百分比 |
 |---|---:|---:|
 | 直隶 | 3309 | 14.29% |
 | 浙江 | 3272 | 14.13% |

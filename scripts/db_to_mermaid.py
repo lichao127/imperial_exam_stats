@@ -98,9 +98,9 @@ def graph_total_by_province_markdown(
 ) -> str:
     lines: List[str] = []
     if include_title:
-        lines.append("# Graph 1: Total Count by Province")
+        lines.append("# Graph 1: 明朝各省进士总人数")
         lines.append("")
-    lines.append("| Province | Count | Percentage |")
+    lines.append("| 省份 | 人数 | 百分比 |")
     lines.append("|---|---:|---:|")
 
     total = sum(count for _, count in province_counts)
@@ -132,7 +132,7 @@ def graph_province_yearly_markdown(
         lines.append("")
     lines.append("```mermaid")
     lines.append("xychart-beta")
-    lines.append(f'    title "{escape_mermaid_label(province)}: 人数按年份"')
+    lines.append(f'    title "{escape_mermaid_label(province)}: 进士人数按年份"')
     lines.append("    x-axis [" + ", ".join(str(y) for y in years) + "]")
     lines.append(f"    y-axis \"count\" 0 --> {max_count}")
     lines.append("    bar [" + ", ".join(str(c) for c in counts) + "]")
@@ -153,7 +153,7 @@ def graph_province_yearly_markdown(
 
         lines.append("```mermaid")
         lines.append("xychart-beta")
-        lines.append(f'    title "{escape_mermaid_label(province)}: 占当年总人数百分比"')
+        lines.append(f'    title "{escape_mermaid_label(province)}: 占当年总进士百分比"')
         lines.append("    x-axis [" + ", ".join(str(y) for y in years) + "]")
         lines.append(f"    y-axis \"percentage\" 0 --> {y_max}")
         lines.append("    line [" + ", ".join(f"{p:.2f}" for p in percentages) + "]")
