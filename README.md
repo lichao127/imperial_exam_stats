@@ -48,6 +48,12 @@ Count all rows:
 sqlite3 scripts/ming_people.db "SELECT COUNT(*) FROM people;"
 ```
 
+Count rows for AD year 1397 ([洪武三十年南北榜案](https://zh.wikipedia.org/wiki/Template:%E6%B4%AA%E6%AD%A6%E4%B8%89%E5%8D%81%E5%B9%B4%E4%B8%81%E4%B8%91%E7%A7%91%E6%AE%BF%E8%A9%A6%E9%87%91%E6%A6%9C)):
+
+```bash
+sqlite3 scripts/ming_people.db "SELECT COUNT(*) FROM people WHERE ad_year = '1397';"
+```
+
 Show first 10 rows:
 
 ```bash
@@ -64,3 +70,7 @@ GROUP BY template, imperial_year, ad_year, name, courtesy_name, province, county
 HAVING c > 1;
 "
 ```
+
+## Limitations
+
+- 如果一个人没有维基词条，或者词条有多于一个相关页面，省份为未知
