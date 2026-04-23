@@ -1,7 +1,8 @@
 # Graph 1: Total Count by Province
 
 ```mermaid
-pie title 明代进士省份分布
+pie showData
+    title 明代进士省份分布
     "直隶" : 3309
     "浙江" : 3272
     "江西" : 2417

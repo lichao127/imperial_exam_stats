@@ -74,7 +74,8 @@ def graph_total_by_province_markdown(province_counts: List[Tuple[str, int]]) -> 
     lines.append("# Graph 1: Total Count by Province")
     lines.append("")
     lines.append("```mermaid")
-    lines.append("pie title 明代进士省份分布")
+    lines.append("pie showData")
+    lines.append("    title 明代进士省份分布")
 
     if province_counts:
         for province, count in province_counts:
